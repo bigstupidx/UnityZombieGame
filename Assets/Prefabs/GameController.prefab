@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460862}
+  - 114: {fileID: 11410750}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9713129, y: 0, z: 3.2109807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11410750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250098fe7d35fa043b94e1f5acdf8e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenes:
+  - Level1
+  - Level2
+  - Level3
+  - Level4
+  - FinalLevel
+  - End
+  playAgain: {fileID: 0}
+  continueToNext: {fileID: 0}
+  scoreText: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: scenes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scenes.Array.data[0]
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scenes.Array.data[1]
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scenes.Array.data[2]
+      value: Level3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scenes.Array.data[3]
+      value: Level4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 108250}
+  m_IsPrefabParent: 1

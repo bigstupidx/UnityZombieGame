@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - BasicZombieZone
+  - SafeZoneWall
+  - IceZoneWall
+  - SafeZone
+  - Boundary
+  - LevelFinishBoundary
+  - LevelFinishZone
+  - Currency
+  - GiveLife
+  - BasicZombie
+  - Immune
+  - Blink
+  - PickUp
+  - EndingScreen
+  - PlayerTomb
+  - IceRegion
+  - Diamond
+  - BigEnemy
+  - FireBall
+  - BarrierLevel2
+  - BarrierLevel1
+  - Barrier
+  - Item
+  - Brazier_lit
+  - Door
+  - AchievementClone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
